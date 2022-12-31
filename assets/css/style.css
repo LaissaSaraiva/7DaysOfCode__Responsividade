@@ -5,3 +5,18 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
+
+/* #07daysOfCode - Dia 01 */
+
+/* Header  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 1rem;
+}
+
+.header__icons {
+  display: flex;
+  gap: 1rem;
+}
