@@ -1,15 +1,22 @@
+:root {
+  --text-color-primary: #464646;
+  --text-color-secundary: #a3a3a3;
+  --background-color: #f6f6f6;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  color: var(--text-color-primary);
 }
 
 /* #07daysOfCode - Dia 01 */
 
 /* Header  */
-.header {
+.header__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,4 +26,22 @@
 .header__icons {
   display: flex;
   gap: 1rem;
+}
+
+.header__main {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 32px 0 22px 16px;
+}
+
+.header__main p {
+  color: var(--text-color-secundary);
+}
+
+.avatar {
+  height: 57px;
+  width: 57px;
+  border-radius: 50%;
 }
