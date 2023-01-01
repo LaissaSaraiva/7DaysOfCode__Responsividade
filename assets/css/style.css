@@ -1,7 +1,10 @@
 :root {
   --text-color-primary: #464646;
   --text-color-secundary: #a3a3a3;
-  --background-color: #f6f6f6;
+  --background-color: #f9f7fe;
+  --background-secundary: #fff;
+  --btn-1: #ffb050;
+  --btn-2: #4894ff;
 }
 
 * {
@@ -13,6 +16,14 @@
   color: var(--text-color-primary);
 }
 
+span {
+  font-size: 12px;
+}
+
+hr {
+  color: blueviolet;
+  text-align: center;
+}
 /* #07daysOfCode - Dia 01 */
 
 /* Header  */
@@ -44,4 +55,90 @@
   height: 57px;
   width: 57px;
   border-radius: 50%;
+}
+
+/* Lista de Consultas */
+
+.consultas {
+  background-color: var(--background-color);
+  padding: 0.5rem 1rem 1.5rem 1rem;
+  min-width: 328px;
+}
+
+.consultas__card {
+  border-radius: 8px;
+  background-color: var(--background-secundary);
+  padding: 1rem;
+  margin: 16px 0;
+}
+
+.card__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--background-color);
+}
+
+.consultas__perfil {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.consultas__perfil span {
+  color: var(--text-color-secundary);
+}
+
+.chat img {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: var(--background-color);
+}
+
+.card__bottom {
+  padding-top: 9px;
+}
+
+button {
+  height: 48px;
+  border-radius: 8px;
+  padding: 13px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding-top: 8px;
+}
+
+.btn_video,
+.btn_audio {
+  width: 139px;
+}
+
+.btn_video {
+  color: var(--background-secundary);
+  background-color: var(--btn-1);
+}
+
+.btn_audio {
+  background-color: var(--background-secundary);
+  border: 2px solid var(--background-color);
+}
+
+.btn_local {
+  background-color: var(--btn-2);
+  color: var(--background-secundary);
+  width: 296px;
 }
