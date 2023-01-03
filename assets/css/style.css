@@ -63,14 +63,14 @@ hr {
 .consultas {
   background-color: var(--background-color);
   padding: 0.5rem 1rem 1.5rem 1rem;
-  min-width: 328px;
 }
 
 .consultas__card {
   border-radius: 8px;
   background-color: var(--background-secundary);
   padding: 1rem;
-  margin: 16px 0;
+  margin: 16px auto;
+  max-width: 328px;
 }
 
 .card__top {
