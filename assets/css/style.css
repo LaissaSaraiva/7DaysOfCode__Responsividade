@@ -70,7 +70,7 @@ hr {
   background-color: var(--background-secundary);
   padding: 1rem;
   margin: 16px auto;
- 
+
   max-width: 500px;
 }
 
@@ -184,5 +184,41 @@ button {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    position: absolute;
+    left: 180px;
+  }
+
+  .header__top {
+    display: none;
+  }
+
+  .rodape {
+    padding: 32px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 180px;
+    height: 100vh;
+  }
+
+  .rodape__lista {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .rodape__item {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .btn__flutuante {
+    position: fixed;
   }
 }
