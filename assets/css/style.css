@@ -186,7 +186,7 @@ button {
   position: absolute;
   right: 0%;
   bottom: 50px;
-  z-index: 5;
+  z-index: 10;
   width: 100%;
 }
 
