@@ -1,3 +1,15 @@
+/* Botão flutuante */
+.hidden {
+  visibility: hidden;
+}
+
+.bg-btn {
+  background: #000;
+   height: 100%;
+  width: 100%;
+  z-index: 4;
+}
+
 /*  Menu lateral - Hover */
 
 @media screen and (min-width: 1024px) {

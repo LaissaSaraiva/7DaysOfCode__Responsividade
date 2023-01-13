@@ -29,12 +29,17 @@ hr {
 }
 /* #07daysOfCode - Dia 01 */
 
+main {
+  background-color: var(--background-color);
+}
+
 /* Header  */
 .header__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 6px 1rem;
+  background: var(--background-secundary);
 }
 
 .header__icons {
@@ -172,7 +177,7 @@ button {
 }
 
 .rodape_lista .azul {
-  color: #4894ff;
+  color: var(--btn-2);
 }
 
 .btn__flutuante {
@@ -181,6 +186,8 @@ button {
   position: absolute;
   right: 0%;
   bottom: 50px;
+  z-index: 5;
+  width: 100%;
 }
 
 .div__flutuante {
