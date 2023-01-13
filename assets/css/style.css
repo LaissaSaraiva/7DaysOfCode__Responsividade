@@ -176,9 +176,24 @@ button {
 }
 
 .btn__flutuante {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   right: 0%;
   bottom: 50px;
+}
+
+.div__flutuante {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.div__flutuante span {
+  background-color: var(--background-secundary);
+  color: var(--text-color-primary);
+  border-radius: 8px;
+  padding: 2px 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -225,6 +240,6 @@ button {
   }
 
   .btn__flutuante {
-    position: fixed;
+    display: none;
   }
 }
