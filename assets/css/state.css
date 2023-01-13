@@ -1,0 +1,15 @@
+/*  Menu lateral - Hover */
+
+@media screen and (min-width: 1024px) {
+  .rodape__item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--background-color);
+    z-index: 2;
+    font-weight: bold;
+    color: var(--btn-2);
+  }
+
+  .rodape__item:hover span {
+    color: var(--btn-2);
+  }
+}
